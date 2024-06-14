@@ -1,7 +1,7 @@
 let ans=document.getElementById('ans');
 let userscore=document.getElementById('span1');
 let computerscore=document.getElementById('span2');
-let i=0;
+let k=0;
 let j=0;
 let choice=document.querySelectorAll('.choice');
 for(let i=0;i<choice.length;i++)
@@ -21,7 +21,7 @@ for(let i=0;i<choice.length;i++)
             {
                    if(userchoice == "rock" && computerselectedvalue == "scissor"){
                     console.log("you win");
-                    userscore.textContent=++i;
+                    userscore.textContent=++k;
                     ans.textContent="Right";
                    }
                    else
@@ -37,7 +37,7 @@ for(let i=0;i<choice.length;i++)
                             if(userchoice == "paper" && computerselectedvalue == "rock")
                                 {
                                     console.log('you win');
-                                    userscore.textContent=++i;
+                                    userscore.textContent=++k;
                                     ans.textContent="Right";
                                 }
                                 else
@@ -62,6 +62,7 @@ for(let i=0;i<choice.length;i++)
                                                         {
                                                             console.log('you win');
                                                             ans.textContent="Right";
+                                                            userscore.textContent=++k;
                                                         }
                                                 }
                                         }
