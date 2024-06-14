@@ -38,7 +38,7 @@ for(let i=0;i<choice.length;i++)
                                 {
                                     console.log('you win');
                                     userscore.textContent=++k;
-                                    ans.textContent="YOU Win;
+                                    ans.textContent="YOU Win";
                                 }
                                 else
                                 {
