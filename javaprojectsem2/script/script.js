@@ -22,7 +22,7 @@ for(let i=0;i<choice.length;i++)
                    if(userchoice == "rock" && computerselectedvalue == "scissor"){
                     console.log("you win");
                     userscore.textContent=++k;
-                    ans.textContent="Right";
+                    ans.textContent="You Win";
                    }
                    else
                    {
@@ -30,7 +30,7 @@ for(let i=0;i<choice.length;i++)
                         {
                             console.log("you lose");
                             computerscore.textContent=++j;
-                            ans.textContent="Wrong";
+                            ans.textContent="You Lose";
                         }
                         else
                         {
@@ -38,7 +38,7 @@ for(let i=0;i<choice.length;i++)
                                 {
                                     console.log('you win');
                                     userscore.textContent=++k;
-                                    ans.textContent="Right";
+                                    ans.textContent="YOU Win;
                                 }
                                 else
                                 {
@@ -46,7 +46,7 @@ for(let i=0;i<choice.length;i++)
                                         {
                                             console.log("you lose");
                                             computerscore.textContent=++j;
-                                            ans.textContent="Wrong";
+                                            ans.textContent="You Lose";
                                         }
                                         else
                                         {
@@ -54,14 +54,14 @@ for(let i=0;i<choice.length;i++)
                                                 {
                                                     console.log('you lose');
                                                     computerscore.textContent=++j;
-                                                    ans.textContent="Wrong";
+                                                    ans.textContent="You Lose";
                                                 }
                                                 else
                                                 {
                                                     if(userchoice == "scissor" && computerselectedvalue == "paper")
                                                         {
                                                             console.log('you win');
-                                                            ans.textContent="Right";
+                                                            ans.textContent="You Win";
                                                             userscore.textContent=++k;
                                                         }
                                                 }
